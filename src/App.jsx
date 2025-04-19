@@ -1,5 +1,6 @@
 
 // import './App.css'
+import FetchData from './Components/fetchData/FetchData'
 import Counter from './Components/Timer/Counter'
 import StopTimer from './Components/Timer/StopTimer'
 import Timer1 from './Components/Timer/Timer1'
@@ -11,9 +12,12 @@ function App() {
     <>
       {/* <PropsComponent /> */}
       {/* <Counter /> */}
+      {/* counter with useEffect */}
       {/* <Timer1 /> */}
-      <StopTimer />
-      {/* onditional rendering */}
+      {/* <StopTimer /> */}
+
+      {/* fetch data */}
+      <FetchData />
     </>
   )
 }
